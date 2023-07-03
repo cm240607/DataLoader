@@ -33,7 +33,7 @@ jobs:
         
       # Runs a single command using the runners shell
       - name: Install Salesforce CLI
-        run: echo Hello, world!
+        run: npm install sfdx-cli --global
         
       # Runs a single command using the runners shell
       - name: Install sfdx GIt Delta
